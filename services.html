@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="img/favicon.png" type="image/png">
+	<title>Services</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="vendors/linericon/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+	<!-- main css -->
+	<link rel="stylesheet" href="css/style.css">
+    <style>
+		#more1 {display: none;}
+	</style>
+    <style>
+		#more2 {display: none;}
+	</style>
+</head>
+
+<body>
+
+	<!--================ Start Header Area =================-->
+	<header class="header_area">
+		<div class="main_menu">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+						<ul class="nav navbar-nav menu_nav justify-content-end">
+							<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+							<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+							<li class="nav-item active"><a class="nav-link" href="services.html">Services</a></li>
+							<li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<!--================ End Header Area =================-->
+
+    <!--================ Start Banner Area =================-->
+    <section class="banner_area">
+        <div class="banner_inner d-flex align-items-center">
+            <div class="container">
+                <div class="banner_content text-center">
+                    <h2>Services</h2>
+                    <div class="page_link">
+                        <a href="index.html">Home</a>
+                        <a href="services.html">Services</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================ End Banner Area =================-->
+
+	<!--================ Start Features Area =================-->
+	<section class="features_area section_gap_top">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <div class="main_title">
+                        <h2>service offers </h2>
+						<p>
+							Elevating standards, redefining excellence: <br> Your journey to peak performance starts here.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="row feature_inner">
+				<div class="col-lg-3 col-md-6">
+					<div class="feature_item">
+						<img src="img/services/s4.png" alt="">
+						<h4>Game development</h4>
+						<p>
+							I design, develop, test, and deploy video games for various platforms, including consoles, PCs, mobile devices, and virtual reality headsets. The one stop to bring game ideas to life.</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="feature_item">
+						<img src="img/services/s2.png" alt="">
+						<h4>UI/UX design</h4>
+						<p>I craft intuitive and engaging designs for websites, mobile apps, and other digital products. I collaborate closely with clients to understand their needs, objectives, and target audience, ensuring that every design decision aligns with their business goals.</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="feature_item">
+						<img src="img/services/s1.png" alt="">
+						<h4>Web Development</h4>
+						<p>I craft and maintain high-performance, secure, and engaging websites that empower businesses to thrive in the digital landscape. I possess a comprehensive
+							understanding of web development technologies<span id="dots1">...</span><span id="more1">, including HTML, CSS, JavaScript, and various frameworks, enabling me to transform ideas into functional and visually appealing websites.</span></p><br>
+							<button onclick="myFunction1()" id="myBtn1" class="primary_btn text-center">Read more</button>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="feature_item">
+						<img src="img/services/s3.png" alt="">
+						<h4>Power Platform Development</h4>
+						<p>I empower businesses to harness the power of Microsoft's Power Platform, a suite of low-code tools, to build custom applications, automate workflows, 
+							and gain insights from data<span id="dots2">...</span><span id="more2"> With my expertise in Power Apps, Power Automate, Power BI, and Power Virtual Agents, I transform ideas into innovative solutions that streamline 
+							operations, enhance productivity, and drive data-driven decision-making.</span></p><br>
+							<button onclick="myFunction2()" id="myBtn2" class="primary_btn text-center">Read more</button>
+					</div>
+				</div>
+            </div>
+        </div>
+    </section>
+    <!--================ End Features Area =================-->
+
+    <!--================ Start Newsletter Area =================-->
+    <section class="newsletter_area">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-12">
+                    <div class="subscription_box text-center">
+						<h2 class="text-uppercase text-white">Reach Out, Let's Connect</h2>
+						<p class="text-white">
+							Message me to embark on a journey where dreams become reality. 
+						</p>
+						<br><br>
+                        <button id = "contact-btn" class="primary-btn hover d-inline">Get Started</button>
+                        <script>
+                            var btn = document.getElementById('contact-btn');
+                            btn.addEventListener('click', function() {
+                            window.location.href = 'contact.html';
+                            });
+                        </script>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================ End Newsletter Area =================-->
+        
+        <!--================Footer Area =================-->
+	<footer class="footer_area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="footer_top flex-column">
+                        <div class="footer_logo">
+                            <a href="#">
+                                <img src="img/logo.png" alt="">
+                            </a>
+                            <h4>Follow Me</h4>
+                        </div>
+						<div class="footer_social">
+							<a href="https://www.linkedin.com/in/zeeshan-ahmed-491787216"><i class="fa fa-linkedin"></i></a>
+							<a href="https://github.com/zeeshanawnn09"><i class="fa fa-github"></i></a>
+							<a href="https://www.behance.net/malikahmedawan1"><i class="fa fa-behance"></i></a>
+							<a href="https://instagram.com/zeeshanawnn_09?igshid=NGVhN2U2NjQ0Yg=="><i class="fa fa-instagram"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row footer_bottom justify-content-center">
+				<p class="col-lg-8 col-sm-12 footer-text">
+					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This website is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Zeeshan</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+			</div>
+		</div>
+    </footer>
+    <!--================End Footer Area =================-->
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script>
+		function myFunction1() {
+		  var dots = document.getElementById("dots1");
+		  var moreText = document.getElementById("more1");
+		  var btnText = document.getElementById("myBtn1");
+		
+		  if (dots.style.display === "none") {
+			dots.style.display = "inline";
+			btnText.innerHTML = "Read more"; 
+			moreText.style.display = "none";
+		  } else {
+			dots.style.display = "none";
+			btnText.innerHTML = "Read less"; 
+			moreText.style.display = "inline";
+		  }
+		}
+		</script>
+        <script>
+            function myFunction2() {
+              var dots = document.getElementById("dots2");
+              var moreText = document.getElementById("more2");
+              var btnText = document.getElementById("myBtn2");
+            
+              if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more"; 
+                moreText.style.display = "none";
+              } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less"; 
+                moreText.style.display = "inline";
+              }
+            }
+            </script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/stellar.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+    <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+    <script src="vendors/isotope/isotope-min.js"></script>
+    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <!--gmaps Js-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+    <script src="js/gmaps.min.js"></script>
+    <script src="js/theme.js"></script>
+</body>
+
+</html>
